@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200606 14:06:34.672" generator="Robot 3.2.1 (Python 2.7.18 on win32)">
+<suite source="C:\Users\user\Documents\NH\SeleniumUdemy\RobotAutomation\AutomationStepByStep\FirstTestSuite.robot" id="s1" name="FirstTestSuite">
+<test id="s1-t1" name="TestCase1">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>"Hello, I am new"</arg>
+</arguments>
+<msg timestamp="20200606 14:06:35.233" level="INFO">"Hello, I am new"</msg>
+<status status="PASS" endtime="20200606 14:06:35.233" starttime="20200606 14:06:35.232"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" endtime="20200606 14:06:35.235" critical="yes" starttime="20200606 14:06:35.229"></status>
+</test>
+<status status="PASS" endtime="20200606 14:06:35.240" starttime="20200606 14:06:34.681"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Smoke</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="FirstTestSuite" pass="1">FirstTestSuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
